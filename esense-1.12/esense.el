@@ -1,4 +1,4 @@
-;; esense.el - Erlang "IntelliSense" for Emacs
+;;; esense.el - Erlang "IntelliSense" for Emacs
 ;;
 ;; Copyright (C) 2006  Tamas Patrovics
 ;;
@@ -18,7 +18,7 @@
 ;; Boston, MA 02111-1307, USA.
 ;;
 ;;
-;; Commentary:
+;;; Commentary:
 ;;
 ;;
 ;; ESense (ErlangSense) is a minor mode which provides features
@@ -82,9 +82,8 @@
 ;; If the cursor is on an -include line the corresponding header file
 ;; is visited.
 ;;  
-;;
-;; Code:
-;;
+
+;;; Code:
 
 (require 'erlang)
 (eval-when-compile (require 'cl))
